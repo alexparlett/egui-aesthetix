@@ -18,7 +18,7 @@ standard = []
 carl = []
 
 [dependencies]
-egui = "0.26.2"
+egui = { git = "https://github.com/alexparlett/egui.git", rev = "c7d3f2cb7a7917325ce7ef922a2eacac99fc0dce" }
 
 [lib]
 name = "egui_aesthetix"
