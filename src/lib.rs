@@ -363,7 +363,6 @@ pub trait Aesthetix {
                     se: self.rounding_visuals(),
                 },
                 window_shadow: egui::epaint::Shadow {
-                    extrusion: 32.0,
                     color: egui::Color32::from_rgba_premultiplied(0, 0, 0, 96),
                 },
                 window_fill: self.bg_primary_color_visuals(),
@@ -378,11 +377,9 @@ pub trait Aesthetix {
                     se: self.rounding_visuals(),
                 },
                 popup_shadow: egui::epaint::Shadow {
-                    extrusion: 16.0,
                     color: egui::Color32::from_rgba_premultiplied(19, 18, 18, 96),
                 },
                 resize_corner_size: 12.0,
-                text_cursor_preview: false,
                 clip_rect_margin: 3.0,
                 button_frame: true,
                 collapsing_header_frame: true,
