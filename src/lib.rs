@@ -364,6 +364,9 @@ pub trait Aesthetix {
                 },
                 window_shadow: egui::epaint::Shadow {
                     color: egui::Color32::from_rgba_premultiplied(0, 0, 0, 96),
+                    offset: Vec2::ZERO,
+                    blur: 0.0,
+                    spread: 32.0,
                 },
                 window_fill: self.bg_primary_color_visuals(),
                 window_stroke: egui::Stroke {
@@ -378,6 +381,9 @@ pub trait Aesthetix {
                 },
                 popup_shadow: egui::epaint::Shadow {
                     color: egui::Color32::from_rgba_premultiplied(19, 18, 18, 96),
+                    offset: Vec2::ZERO,
+                    blur: 0.0,
+                    spread: 32.0,
                 },
                 resize_corner_size: 12.0,
                 clip_rect_margin: 3.0,
